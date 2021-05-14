@@ -49,8 +49,8 @@ void hls_zhongxinfa(GRAY_IMAGE& INPUT_IMG,GRAY_IMAGE& OUTPUT_IMG, int rows, int 
 		float sum_value=0;
 		float sum_valuecoor=0;
 
-		float current_value[783];
-		float current_coordinat[783];
+		float current_value[MAX_HEIGHT];
+		float current_coordinat[MAX_HEIGHT];
 		int vector_num=0;
 
 		for(int j=0;j<img_0.cols;j++)
